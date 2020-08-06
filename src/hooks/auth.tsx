@@ -48,7 +48,6 @@ export const AuthProvider: React.FC = ({ children }) => {
       email,
       password,
     });
-
     const { token, user } = response.data;
 
     localStorage.setItem('@GoBarber:token', token);
